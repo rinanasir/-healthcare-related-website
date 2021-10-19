@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 const Register = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+
+    const auth = getAuth();
 
     const { signInUsingGoogle } = useAuth();
 
@@ -18,7 +21,10 @@ const Register = () => {
     }
 
     const handleRegistration = e => {
-
+        createUserWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                const user = result.user;
+            })
         e.preventDefault();
     }
 
