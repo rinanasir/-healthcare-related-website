@@ -1,0 +1,44 @@
+[
+    {
+        "key": 101,
+        "name": "Cardiology",
+        "price": "300",
+        "about": "Utilising the latest in cardiac technology, industry-leading procedures and onsite rehabilitation programs, our hospitals provkeye patients with comprehensive cardiac care.",
+        "image": "https://i.ibb.co/N62j3pR/service-1.png"
+    },
+    {
+        "key": 102,
+        "name": "Colorectal",
+        "price": "400",
+        "about": "Utilising the latest research and techniques for the diagnosis and treatment of colorectal conditions, Healthe Care surgeons are experienced in dealing with a range of colon, rectum and anus disorders.",
+        "image": "https://i.ibb.co/1fVrTLT/service-2.png"
+    },
+    {
+        "key": 103,
+        "name": "General Surgery",
+        "price": "200",
+        "about": "Healthe Care's general surgeons perform complex surgeries, treating a range of common condition.",
+        "image": "https://i.ibb.co/LvbNCQ3/service-3.png"
+    },
+    {
+        "key": 104,
+        "name": "Mental Health",
+        "price": "180",
+        "about": "Our highly qualified teams of psychiatrists, medical, nursing and allied health professionals provkeye whole of life care, to manage and treat a wkeye range of mental health disorders.",
+        "image": "https://i.ibb.co/j5ZpmYf/service-4.png"
+    },
+    {
+        "key": 105,
+        "name": "Orthopaedics",
+        "price": "250",
+        "about": "We are committed to being at the leading edge of orthopaedic surgery, finding new ways to enhance your experience and helping you to return to everyday life sooner.",
+        "image": "https://i.ibb.co/g7zVHbx/service-5.png"
+    },
+    {
+        "key": 106,
+        "name": "Rehabilitation",
+        "price": "300",
+        "about": "Our experienced team of 200 credentialed physicians and geriatricians oversee treatment. We offer inpatient, day patient and outpatient rehabilitation services, tailored to the indivkeyual needs of each patient.",
+        "image": "https://i.ibb.co/gVM5XjW/service-6.png"
+    }
+]
