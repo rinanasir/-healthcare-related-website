@@ -2,10 +2,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './context/AuthProvider';
 import Details from './Pages/Details/Details/Details';
+import AboutUs from './Pages/Home/AboutUs/AboutUs';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/Home/NotFound/NotFound';
 import Login from './Pages/Login/Login/Login';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Header from './Pages/Shared/Header/Header';
+import Doctors from './Pages/Doctors/Doctors';
 
 function App() {
   return (
@@ -20,12 +23,18 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
+            <Route path="/about">
+              <AboutUs></AboutUs>
+            </Route>
+            <Route path="/doctors">
+              <Doctors></Doctors>
+            </Route>
             <Route path="/login">
               <Login></Login>
             </Route>
-            <Route path="/details/:serviceKey">
+            <PrivateRoute path="/details/:serviceKey">
               <Details></Details>
-            </Route>
+            </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>
