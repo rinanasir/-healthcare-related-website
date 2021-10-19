@@ -15,7 +15,7 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h1 className="text-light bg-primary fw-bolder fs-1 rounded-3">Green Life Health Care</h1>
+                        <h1 className="text-light bg-primary fw-bolder fs-1 rounded-3">Green Life Healthcare</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
