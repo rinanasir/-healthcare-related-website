@@ -1,22 +1,28 @@
+import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
+    const signIn = <FontAwesomeIcon icon={faSignInAlt} />
     return (
         <>
-            <Navbar bg="primary" variant="dark" sticky="top">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
                 <Container>
-                    <Navbar.Brand href="#home">Green Life Healthcare</Navbar.Brand>
+                    <Navbar.Brand href="#home">Green Life</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
+                        <Nav.Link as={Link} to="/home#home">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/home#services">Services</Nav.Link>
+                        <Nav.Link as={Link} to="/home#doctors">Doctors</Nav.Link>
+                        <Nav.Link as={Link} to="/login">Login</Nav.Link>
                         <Navbar.Text>
-                            Signed in as: <a href="#login">Mark Otto</a>
+                            {signIn} <a href="#login">Mark Otto</a>
                         </Navbar.Text>
                     </Navbar.Collapse>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#services">Services</Nav.Link>
-                        <Nav.Link href="#doctors">Doctors</Nav.Link>
+
                     </Nav>
                 </Container>
             </Navbar>
