@@ -10,7 +10,7 @@ const Doctors = () => {
     }, []);
     return (
         <div>
-            <h1 className="text-primary fw-bold mt-4 pt-4">Meet Our Doctors</h1>
+            <h1 className="text-primary fw-bold mt-5 pt-5">Meet Our Doctors</h1>
             <div className="row mx-5 px-5">
                 {
                     doctors.map(doctor => <Doctor
