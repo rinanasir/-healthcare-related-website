@@ -9,7 +9,7 @@ const Doctors = () => {
             .then(data => setDoctors(data));
     }, []);
     return (
-        <div>
+        <div id="doctors">
             <h1 className="text-primary fw-bold mt-5 pt-5">Meet Our Doctors</h1>
             <div className="row mx-5 px-5">
                 {
