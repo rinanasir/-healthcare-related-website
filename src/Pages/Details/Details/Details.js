@@ -5,7 +5,7 @@ const Details = () => {
     const { serviceKey } = useParams();
     return (
         <div>
-            <h2>this is details: {serviceKey}</h2>
+            <h2>Welcome to service {serviceKey}</h2>
         </div>
     );
 };
