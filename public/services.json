@@ -10,14 +10,14 @@
         "key": 102,
         "name": "Colorectal",
         "price": "400",
-        "about": "Utilising the latest research and techniques for the diagnosis and treatment of colorectal conditions, Healthe Care surgeons are experienced in dealing with a range of colon, rectum and anus disorders.",
+        "about": "Utilising the latest research and techniques for the diagnosis and treatment of colorectal conditions, our surgeons are experienced in dealing with a range of colon, rectum disorders.",
         "image": "https://i.ibb.co/1fVrTLT/service-2.png"
     },
     {
         "key": 103,
         "name": "General Surgery",
         "price": "200",
-        "about": "Healthe Care's general surgeons perform complex surgeries, treating a range of common condition.",
+        "about": "Healthe Care's general surgeons perform complex surgeries, treating a range of common condition. Our sergeons are very well experienced in their field. Patient's life is our first priority.",
         "image": "https://i.ibb.co/LvbNCQ3/service-3.png"
     },
     {
