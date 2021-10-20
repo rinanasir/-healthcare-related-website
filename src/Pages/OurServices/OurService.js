@@ -2,11 +2,10 @@ import { faDollarSign, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Service.css';
 
-const Service = ({ service }) => {
-    const { key, name, about, price, image } = service;
-    const detailIcon = <FontAwesomeIcon icon={faInfoCircle} />
+const OurService = ({ ourService }) => {
+    const { key, name, about, price, image } = ourService;
+    const infoIcon = <FontAwesomeIcon icon={faInfoCircle} />
     const dollarIcon = <FontAwesomeIcon icon={faDollarSign} />
     return (
         <div className="col-lg-4 col-sm-6 col-12 pb-3 bg-color">
@@ -15,10 +14,10 @@ const Service = ({ service }) => {
             <h4 className="text-danger fw-bold">Price: {dollarIcon} {price}</h4>
             <p className="px-5">{about}</p>
             <Link to={`/details/${key}`}>
-                <button className="btn btn-info">{detailIcon} Details</button>
+                <button className="btn btn-info">{infoIcon} Details</button>
             </Link>
         </div>
     );
 };
 
-export default Service;
+export default OurService;

@@ -10,6 +10,8 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Header from './Pages/Shared/Header/Header';
 import Doctors from './Pages/Doctors/Doctors';
 import Register from './Pages/Login/Register/Register';
+import OurServices from './Pages/OurServices/OurServices';
+import Footer from './Pages/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -27,9 +29,9 @@ function App() {
             <Route path="/about">
               <AboutUs></AboutUs>
             </Route>
-            {/* <Route path="/services">
-              <Services></Services>
-            </Route> */}
+            <Route path="/service">
+              <OurServices></OurServices>
+            </Route>
             <Route path="/doctors">
               <Doctors></Doctors>
             </Route>
@@ -46,6 +48,7 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>
