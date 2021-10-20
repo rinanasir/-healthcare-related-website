@@ -29,11 +29,14 @@ const Register = () => {
     }
 
     return (
-        <div>
-            <div>
+        <div className="d-flex justify-content-center">
+            <div className="border border-info border-2 rounded-3 mt-4 pt-4 mb-5 pb-5 mx-3 px-3">
                 <h2 className="text-primary fw-bold mt-1">Please Register</h2>
                 <div className="my-4">
                     <form onSubmit={handleRegistration}>
+                        <input type="text" placeholder="Your Name" />
+                        <br />
+                        <br />
                         <input onBlur={hadleEmailChange} type="email" name="" id="" placeholder="Your Email" />
                         <br />
                         <br />
@@ -43,7 +46,7 @@ const Register = () => {
                         <input className="btn btn-info" type="button" value="Submit" />
                     </form>
                 </div>
-                <p>Already have an account? <Link to="/login">Login</Link></p>
+                <p className="login-register py-1 px-3">Already have an account? <Link to="/login">Login</Link></p>
                 <button onClick={signInUsingGoogle} className="btn btn-info">Sign In With Google</button>
             </div>
         </div>
