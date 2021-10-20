@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Footer from '../Shared/Footer/Footer';
 import Doctor from './Doctor';
 
 const Doctors = () => {
@@ -19,6 +20,7 @@ const Doctors = () => {
                     ></Doctor>)
                 }
             </div>
+            <Footer></Footer>
         </div>
     );
 };

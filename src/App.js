@@ -11,7 +11,6 @@ import Header from './Pages/Shared/Header/Header';
 import Doctors from './Pages/Doctors/Doctors';
 import Register from './Pages/Login/Register/Register';
 import OurServices from './Pages/OurServices/OurServices';
-import Footer from './Pages/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -48,7 +47,6 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
-          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Footer from '../Shared/Footer/Footer';
 import OurService from './OurService';
 
 const OurServices = () => {
@@ -22,6 +23,7 @@ const OurServices = () => {
                 }
             </div>
             <h3 className="text-primary fw-bold mt-5 mb-5">More Services Are Comming Soon....</h3>
+            <Footer></Footer>
         </div>
     );
 };

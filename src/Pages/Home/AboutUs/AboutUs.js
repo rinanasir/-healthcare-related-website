@@ -1,5 +1,6 @@
 import React from 'react';
 import banner from '../../../images/banner-2.png'
+import Footer from '../../Shared/Footer/Footer';
 
 const AboutUs = () => {
     return (
@@ -12,6 +13,7 @@ const AboutUs = () => {
             <div className=" container mt-1 mx=5 px-5">
                 <h5>Healthe Care is the on the way to becaome the largest private hospital operator. We employ 7,000 people and operate a portfolio of 34 private healthcare facilities.</h5>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
