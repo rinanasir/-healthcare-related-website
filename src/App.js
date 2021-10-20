@@ -10,7 +10,6 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Header from './Pages/Shared/Header/Header';
 import Doctors from './Pages/Doctors/Doctors';
 import Register from './Pages/Login/Register/Register';
-import Services from './Pages/Home/Services/Services';
 
 function App() {
   return (
